@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "factor": "Mkt-RF",
+      "n": 6519,
+      "mean": 0.00680776192667587,
+      "t_iid": 11.184727260109081,
+      "t_hac": 2.8078806054403063,
+      "statsmodels_se": 0.002424519729751237,
+      "all_windows_recomputed": true
+    },
+    {
+      "factor": "SMB",
+      "n": 6519,
+      "mean": 0.0008168890934192364,
+      "t_iid": 2.1688942133395677,
+      "t_hac": 0.5489647616374568,
+      "statsmodels_se": 0.0014880537887033266,
+      "all_windows_recomputed": true
+    },
+    {
+      "factor": "HML",
+      "n": 6519,
+      "mean": 0.0021659150176407426,
+      "t_iid": 4.7166261918672046,
+      "t_hac": 1.0410725643203995,
+      "statsmodels_se": 0.0020804649856992702,
+      "all_windows_recomputed": true
+    },
+    {
+      "factor": "Mom",
+      "n": 6519,
+      "mean": 0.0025424451603006603,
+      "t_iid": 3.8792380891532843,
+      "t_hac": 0.9674910775650544,
+      "statsmodels_se": 0.0026278745295505884,
+      "all_windows_recomputed": true
+    }
+  ],
+  "notes": [
+    "Every primary forward window recomputed from saved daily data",
+    "Independent HAC quadratic form agrees with statsmodels",
+    "Bootstrap saved draws and all 21 nonoverlap offsets checked"
+  ]
+}

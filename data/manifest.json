@@ -1,0 +1,36 @@
+{
+  "sources": [
+    {
+      "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Research_Data_Factors_daily_CSV.zip",
+      "raw_sha256": "2f29e22546069914890a712680a6f81f3680ebc3543b52864484d209ca13a7db",
+      "file": "ff3_daily.zip",
+      "retrieved_at_utc": "2026-10-20T13:23:46.381662+00:00",
+      "source_header": [
+        "This file was created by using the 202608 CRSP database.",
+        "The Tbill return is the simple daily rate that, over the number of trading days",
+        "compounds to 1-month TBill rate. The 1-month TBill rate data until 202405 are from Ibbotson Associates. Starting from 202406, the 1-month TBill rate is from ICE BofA US 1-Month Treasury Bill Index.",
+        "",
+        ",Mkt-RF,SMB,HML,RF"
+      ]
+    },
+    {
+      "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Momentum_Factor_daily_CSV.zip",
+      "raw_sha256": "ecf82b116e6ec56d2b79a2f27bd1d1598c217b5c6c25caa55b945bdd8a2c0b78",
+      "file": "mom_daily.zip",
+      "retrieved_at_utc": "2026-10-20T13:23:46.393537+00:00",
+      "source_header": [
+        "This file was created by using the 202608 CRSP database.  It",
+        "contains a momentum factor, constructed from six value-weight portfolios formed",
+        "using independent sorts on size and prior return of NYSE, AMEX, and NASDAQ stocks.",
+        "MOM is the average of the returns on two (big and small) high prior return portfolios",
+        "minus the average of the returns on two low prior return portfolios.  The portfolios"
+      ]
+    }
+  ],
+  "daily_csv_sha256": "d9779745b7089a52459ecbc8068b8102f3fbd01867341d7f44f7c2400bafd0de",
+  "units": "decimal daily factor returns",
+  "snapshot_caveat": "Current revised research-factor snapshot; not point-in-time constituents",
+  "first_date": "1970-01-02",
+  "last_date": "2025-12-31",
+  "rows": 14121
+}
